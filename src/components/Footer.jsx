@@ -13,6 +13,7 @@ const Footer = () => {
             <Framer>
             <button
               type="button"
+              onClick={()=>location.href = 'contact'}
               className="bg-gray-400 relative rounded-full h-24 md:h-32 w-24 md:w-32 mt-4 md:mt-0 rotate-[0.001deg]"
             >
               
@@ -52,22 +53,18 @@ const Footer = () => {
               SOCIAL HANDLES
             </span>
             <ul className="flex gap-4">
-              <a href="">
+              <a href="https://www.linkedin.com/in/sara-kulsum-022938287/" target="_blank">
                 <li className="transition-all ease-in-out duration-400 socials hover:scale-110 ">
                   Linkedin
                 </li>
               </a>
-              <a href="">
+              <a href="https://github.com/SaraKulsum" target="_blank">
                 <li className="socials transition-all ease-in-out duration-400 socials hover:scale-110">
                   Github
                 </li>
               </a>
-              <a href="">
-                <li className="socials transition-all ease-in-out duration-400 socials hover:scale-110">
-                  Instagram
-                </li>
-              </a>
-              <a href="">
+              
+              <a href="https://twitter.com/SaraKulsum6302" target="_blank">
                 <li className="socials transition-all ease-in-out duration-400 socials hover:scale-110">
                   Twitter
                 </li>
