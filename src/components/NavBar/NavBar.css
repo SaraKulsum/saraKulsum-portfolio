@@ -1,0 +1,79 @@
+
+#root {
+  margin: 0;
+  padding: 0;
+  background-color: #121211;
+  color: azure;
+}
+.linksContainer{
+  backdrop-filter: blur(3px);
+}
+.work, .about, .contact{
+  transition: all 300ms ease-in-out;
+}
+
+.test{
+  width: 25px;
+  box-shadow:
+  0 0px 10px 5px #d8d7d7b6,  /* inner white */
+  0px 0px 15px 10px rgba(214, 214, 214, 0.363); /* outer cyan */
+  filter: blur(1), brightness(4);
+  left: 10%;
+  transition: all 300ms ease-in-out;
+}
+
+.work:hover ~ .test{
+  left: 10%;
+}
+.about:hover ~ .test{
+  left: 40%;
+}
+.contact:hover ~ .test{
+  left: 75%;
+}
+
+.work:hover ~ .selector_bg{
+  left: 0%;
+  width: 60px;
+}
+.about:hover ~ .selector_bg{
+  left: 30%;
+  width: 60px;
+
+}
+.contact:hover ~ .selector_bg{
+  left: 61%;
+  width: calc(32%);
+}
+
+
+.selector_bg{
+  transition: all 300ms ease-in-out;
+}
+.selector_bg[data-active = 'work']{
+  left: 0%;
+
+}
+.selector_bg[data-active = 'about']{
+  left: 30%;
+ 
+}
+.selector_bg[data-active = 'contact']{
+  left: 61%;
+  width: calc(32%);
+}
+
+.test{
+  transition: all 300ms ease-in-out;
+}
+.test[data-active = 'work']{
+  left: 10%;
+
+}
+.test[data-active = 'about']{
+  left: 40%;
+ 
+}
+.test[data-active = 'contact']{
+  left: 75%;
+}
