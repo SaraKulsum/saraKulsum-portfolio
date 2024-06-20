@@ -42,7 +42,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="lastContainer flex md:flex-row flex-col-reverse gap-3 md:justify-between  mt-3 md:mt-6 mx-6 ">
+        <div className="lastContainer flex  justify-between  mt-3 md:mt-6 mx-6 ">
           <div className="versionBox bottom-0  w-[7rem] font-extralight flex flex-col">
             <span className="text-gray-400 font-mono text-sm">VERSION</span>
             <span className="">© 2024 Edition</span>
@@ -52,7 +52,7 @@ const Footer = () => {
             <span className="text-gray-400 font-mono text-sm">
               SOCIAL HANDLES
             </span>
-            <ul className="flex gap-4">
+            <ul className="flex gap-2 md:gap-4 md:flex-row flex-col">
               <a href="https://www.linkedin.com/in/sara-kulsum-022938287/" target="_blank">
                 <li className="transition-all ease-in-out duration-400 socials hover:scale-110 ">
                   Linkedin
