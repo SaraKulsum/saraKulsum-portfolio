@@ -28,6 +28,8 @@ const Contact = () => {
       .querySelector(".selector_bg")
       .setAttribute("data-active", "contact");
     document.querySelector(".test").setAttribute("data-active", "contact");
+    //scroll top on page load
+    window.scrollTo(0,0);
   }, []);
   return (
     <>
@@ -76,7 +78,7 @@ const Contact = () => {
                 transition={{ease:easeInOut, duration:0.1}}
                 type = "submit"
                 value={"Send It!"}
-             className="rounded-full  bg-gray-500 px-4 py-2 text-xl"/>
+             className="rounded-full  bg-gray-500 px-4 py-2 text-xl cursor-pointer"/>
 
              </div>
               
@@ -84,7 +86,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <div className="lastContainer flex flex-row justify-between mt-[20vh] mx-6 pb-6 ">
+      <div className="customised_footer flex flex-row justify-between mt-[20vh] mx-6 pb-6 ">
           <div className="versionBox bottom-0  w-[7rem] font-extralight flex flex-col">
             <span className="text-gray-400 font-mono text-sm">VERSION</span>
             <span className="">© 2024 Edition</span>
@@ -95,22 +97,17 @@ const Contact = () => {
               SOCIAL HANDLES
             </span>
             <ul className="flex gap-4 ">
-              <a href="">
+              <a href="https://www.linkedin.com/in/sara-kulsum-022938287/" target="_blank">
                 <li className="transition-all ease-in-out duration-400 socials hover:scale-110 ">
                   Linkedin
                 </li>
               </a>
-              <a href="">
+              <a href="https://github.com/SaraKulsum" target="_blank">
                 <li className="socials transition-all ease-in-out duration-400 socials hover:scale-110">
                   Github
                 </li>
-              </a>
-              <a href="">
-                <li className="socials transition-all ease-in-out duration-400 socials hover:scale-110">
-                  Instagram
-                </li>
-              </a>
-              <a href="">
+              </a>         
+              <a href="https://twitter.com/SaraKulsum6302" target="_blank">
                 <li className="socials transition-all ease-in-out duration-400 socials hover:scale-110">
                   Twitter
                 </li>

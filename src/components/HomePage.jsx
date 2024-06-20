@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Layout from './Layout'
 import HeroSection from './HeroSection'
 import project1 from "./project_Images/hamd.png";
@@ -11,7 +11,10 @@ import LocomotiveScroll from 'locomotive-scroll';
 const HomePage = () => {
   const locomotiveScroll = new LocomotiveScroll();
   
-
+  useEffect(()=>{
+    //scroll top on page load
+    window.scrollTo(0,0);
+  },[])
   return (
     <Layout>
         <div>

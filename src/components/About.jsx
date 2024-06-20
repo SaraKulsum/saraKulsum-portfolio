@@ -19,6 +19,8 @@ const About = () => {
   useEffect(() => {
     document.querySelector(".selector_bg").setAttribute("data-active", "about");
     document.querySelector(".test").setAttribute("data-active", "about");
+    //scroll top on page load
+    window.scrollTo(0,0);
   }, []);
 
   let skills = [
