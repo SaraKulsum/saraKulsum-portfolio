@@ -21,7 +21,7 @@ const HomePage = () => {
           <HeroSection />
           <ProjectDisplayFrame heading = {"HAMD"} subLine = {"E-commerce web app"} img = {project1} link = {"https://hamd-ecom.web.app"} cls = {"project_hamd"}/>
           <ProjectDisplayFrame heading = {"Weather-App"} subLine = {"Provides Current Weather, 3-Hourly Forecast, Daily Forecast..."} img = {project2} link = {"https://weather-app-7860.web.app"}  cls = {"project_weatherApp"}/>
-          <ProjectDisplayFrame heading = {"Netflix-clone"} subLine = {"Provides Current Weather, 3-Hourly Forecast, Daily Forecast..."} img = {project3} link = {"https://hamd-ecom.web.app"}  cls = {"project_Netflix"}/>
+          <ProjectDisplayFrame heading = {"Netflix-clone"} subLine = {"cloned the UI of Netflix && provided trailer preview feature"} img = {project3} link = {"https://sarakulsum.github.io/Netflix-Clone/"}  cls = {"project_Netflix"}/>
 
 
         </div>
