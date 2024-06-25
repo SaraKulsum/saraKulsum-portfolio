@@ -33,9 +33,9 @@ const NavBar = () => {
   return (
     <>
      <div className='navContainer fixed z-50  w-[100vw] bg-transparent top-0   font-[500] text-white'>
-          <div className='flex justify-between items-center mx-4 py-4'>
+          <div className='flex justify-between items-center mx-2 py-4'>
           <div className='credit-top'>
-                <span className='capitalize'>©sara kulsum</span>
+                <span className='capitalize pl-3'>©sara kulsum</span>
             </div>
             <div className='links p-3'>
                 <ul className='linksContainer flex bg-transparent backdrop:blur-lg relative gap-2 border border-gray-600 rounded-full p-[8px] '>
