@@ -52,3 +52,29 @@
   text-shadow: 0 0 5px #929090;
 
 }
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #121211;
+}
+
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #303030;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+ 
+  cursor:grab;
+  
+}
+::-webkit-scrollbar-thumb:active {
+  cursor: grabbing;
+}
