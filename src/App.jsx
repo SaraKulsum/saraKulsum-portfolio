@@ -25,7 +25,7 @@ const locomotiveScroll = new LocomotiveScroll();
            <Route element={<Contact/>} path='/contact' />
            <Route element={<Hamd/>} path='/work/hamd-e-commerce' />
            <Route element={<WeatherApp/>} path='/work/weather-App' />
-
+           <Route element={<Netflix/>} path='/work/netlix-clone'/>
            
          </Routes>
        

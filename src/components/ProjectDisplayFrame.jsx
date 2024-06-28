@@ -6,12 +6,12 @@ const ProjectDisplayFrame = ({heading, subLine, img, cls, link}) => {
   const [isHovered, setHovered] = useState(false);
   const darkGrayForFrame = "#292828";
   return (
-    <div className="mx-[5vw] xl:mx-[19vw] p-[6px] my-[5vh] md:my-[10vh] xl:my-[15vh] border rounded-3xl  border-[#929191]">
-      <a href={link} target="_blank" >
+    <div className="mx-[5vw] xl:mx-[19vw] p-[6px] my-[5vh] md:my-[10vh] xl:my-[15vh] border rounded-3xl  border-[#555555]">
+      <a href={link}>
         <div
         onMouseEnter={() => setHovered(true)}
         onMouseLeave={() => setHovered(false)}
-        className = {`${cls} z-30  h-[100%] w-[100%] p-6 rounded-[20px]  border border-[#acabab] `}
+        className = {`${cls} z-30  h-[100%] w-[100%] p-6 rounded-[20px]  border border-[#696868] `}
         >
         <div className="project_label flex justify-between">
           
