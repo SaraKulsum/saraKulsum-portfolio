@@ -4,15 +4,15 @@ import ProjectDisplayFrame from "../ProjectDisplayFrame";
 import { easeInOut, motion } from "framer-motion";
 import { FiExternalLink } from "react-icons/fi";
 import netflix from "../project_Images/Netflix.png";
-import netflixVid1 from './NetflixVideos/netflix_home.mp4'
-import netflixVid2 from './NetflixVideos/netflix_browsing.mp4'
-import netflixVid3 from './NetflixVideos/netflix_trailers.mp4'
+import netflixVid1 from "./NetflixVideos/netflix_home.mp4";
+import netflixVid2 from "./NetflixVideos/netflix_browsing.mp4";
+import netflixVid3 from "./NetflixVideos/netflix_trailers.mp4";
 
 import { MdErrorOutline } from "react-icons/md";
 import { MdOutlineDoneAll } from "react-icons/md";
 import { BsStars } from "react-icons/bs";
 
-import Hamd from "../project_Images/hamd.png"
+import Hamd from "../project_Images/hamd.png";
 
 const Netflix = () => {
   return (

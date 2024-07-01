@@ -22,8 +22,6 @@ const HomePage = () => {
           <ProjectDisplayFrame heading = {"HAMD"} subLine = {"E-commerce web app"} img = {project1} link = {"/work/hamd-e-commerce"} cls = {"project_hamd"}/>
           <ProjectDisplayFrame heading = {"Weather-App"} subLine = {"Provides Current Weather, 3-Hourly Forecast, Daily Forecast..."} img = {project2} link = {"/work/weather-App"}  cls = {"project_weatherApp"}/>
           <ProjectDisplayFrame heading = {"Netflix-clone"} subLine = {"cloned the UI of Netflix && provided trailer preview feature"} img = {project3} link = {"/work/netlix-clone"}  cls = {"project_Netflix"}/>
-
-
         </div>
     </Layout>
   )
