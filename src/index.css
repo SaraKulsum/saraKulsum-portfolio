@@ -2,9 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-
 #root {
-   
-    background-color: #121211;
+  background-color: #121211 !important;
+  color: azure !important;
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121211 !important;
+    color: azure !important;
   }
-  
+}
