@@ -39,7 +39,7 @@ const Footer = () => {
               <span className="text-gray-400 font-mono text-sm">CONTACTS</span>
               <ul className="flex gap-2 md:gap-4 md:flex-row flex-col">
                 <a
-                  href="https://drive.google.com/file/d/1fOAwXIM6dk7KPAOCjT5FkqWxj5cug0OF/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1b7qrBfq1FfoEayCkmQh028xoFKtZpkep/view?usp=sharing"
                   target="_blank"
                 >
                   <li className="transition-all ease-in-out duration-400 socials hover:scale-110">
