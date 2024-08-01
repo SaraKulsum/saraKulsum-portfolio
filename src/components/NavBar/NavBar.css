@@ -5,6 +5,18 @@
   background-color: #121211 !important;
   color: azure !important;
 }
+@media (prefers-color-scheme: dark) {
+  #root {
+    background-color: #121211 !important;
+    color: azure !important;
+  }
+}
+@media (prefers-color-scheme: light) {
+  #root {
+    background-color: #121211 !important;
+    color: azure !important;
+  }
+}
 .linksContainer{
   backdrop-filter: blur(3px);
 }

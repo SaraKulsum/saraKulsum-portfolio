@@ -48,7 +48,7 @@ const NavBar = () => {
                     <li onClick={()=>handleContact()} className='contact z-10   capitalize p-3  hover:cursor-pointer   flex justify-center rounded-full'>
                       contact
                     </li>
-                <div  data-active = "work" className='test bg-white absolute top-0  rounded-full h-[4px] w-[10%]'></div>
+                <div  data-active = "work" className='test dark:bg-white bg-white absolute top-0  rounded-full h-[4px] w-[10%]'></div>
                 <div data-active = "work" className='selector_bg  absolute mx-[8px] rounded-full h-[75%] w-[60px] top-2 left-0 bg-gradient-to-b from-[#6b6b6b] to-transparent'></div>
                 </ul>
             </div>
