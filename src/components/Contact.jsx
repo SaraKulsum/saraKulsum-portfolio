@@ -1,8 +1,7 @@
-import React, { useRef, useState } from "react";
-import Layout from "./Layout";
+import React, { useRef } from "react";
 import { useEffect } from "react";
 import { GoArrowUpRight } from "react-icons/go";
-import { motion, spring } from "framer-motion";
+import { motion } from "framer-motion";
 import { easeInOut } from "framer-motion/dom";
 import NavBar from "./NavBar/NavBar";
 import emailjs from "emailjs-com";
@@ -137,7 +136,7 @@ const Contact = () => {
           </span>
           <ul className="flex gap-4 ">
             <a
-              href="https://drive.google.com/file/d/1b7qrBfq1FfoEayCkmQh028xoFKtZpkep/view?usp=sharing"
+              href="https://drive.google.com/file/d/1ao1qEfqgvJlpX0tu629YjnarnGtUeUut/view?usp=sharing"
               target="_blank"
             >
               <li className="transition-all ease-in-out duration-400 socials hover:scale-110">

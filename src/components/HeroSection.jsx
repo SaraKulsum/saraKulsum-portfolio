@@ -1,6 +1,5 @@
-import { easeInOut, easeOut, motion, spring, AnimatePresence } from "framer-motion";
-import React, { useEffect, useState } from "react";
-import { BsDisplay } from "react-icons/bs";
+import { easeOut, motion } from "framer-motion";
+import React from "react";
 import { GoArrowDown} from "react-icons/go";
 
 

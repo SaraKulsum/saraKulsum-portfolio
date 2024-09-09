@@ -10,7 +10,6 @@ import LocomotiveScroll from 'locomotive-scroll';
 
 const HomePage = () => {
   const locomotiveScroll = new LocomotiveScroll();
-  
   useEffect(()=>{
     //scroll top on page load
     window.scrollTo(0,0);

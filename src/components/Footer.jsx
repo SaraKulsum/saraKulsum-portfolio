@@ -1,7 +1,6 @@
 import React from "react";
 import Framer from "../Framer";
 import { motion } from "framer-motion";
-import { GoArrowUpRight } from "react-icons/go";
 
 const Footer = () => {
   return (
@@ -39,7 +38,7 @@ const Footer = () => {
               <span className="text-gray-400 font-mono text-sm">CONTACTS</span>
               <ul className="flex gap-2 md:gap-4 md:flex-row flex-col">
                 <a
-                  href="https://drive.google.com/file/d/1b7qrBfq1FfoEayCkmQh028xoFKtZpkep/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1ao1qEfqgvJlpX0tu629YjnarnGtUeUut/view?usp=sharing"
                   target="_blank"
                 >
                   <li className="transition-all ease-in-out duration-400 socials hover:scale-110">
@@ -54,16 +53,12 @@ const Footer = () => {
                     Linkedin
                   </li>
                 </a>
-                <a
-                 href="https://github.com/SaraKulsum"
-                 target="_blank">
+                <a href="https://github.com/SaraKulsum" target="_blank">
                   <li className="socials transition-all ease-in-out duration-400 socials hover:scale-110">
                     Github
                   </li>
                 </a>
-                <a 
-                href="https://twitter.com/SaraKulsum6302"
-                target="_blank">
+                <a href="https://twitter.com/SaraKulsum6302" target="_blank">
                   <li className="socials transition-all ease-in-out duration-400 socials hover:scale-110">
                     Twitter
                   </li>

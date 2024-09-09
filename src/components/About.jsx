@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import Layout from "./Layout";
-import HeroSection from "./HeroSection";
 import img1 from "./project_Images/img1.jpg";
 import img2 from "./project_Images/img2.jpg";
 
@@ -8,19 +7,14 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { FaHtml5, FaCss3Alt, FaJava, FaReact, FaGithub } from "react-icons/fa";
 import { IoLogoJavascript, IoLogoFirebase } from "react-icons/io5";
 
-
-import { useState } from "react";
-
-import { animate, easeOut, motion, spring } from "framer-motion";
+import { easeOut, motion } from "framer-motion";
 
 const About = () => {
-  const [isHovered, setHovered] = useState(false);
-
   useEffect(() => {
     document.querySelector(".selector_bg").setAttribute("data-active", "about");
     document.querySelector(".test").setAttribute("data-active", "about");
     //scroll top on page load
-    window.scrollTo(0,0);
+    window.scrollTo(0, 0);
   }, []);
 
   let skills = [
@@ -50,7 +44,7 @@ const About = () => {
       icon: <FaReact size={30} />,
       color: "#fff",
     },
-    
+
     {
       name: "Tailwind-CSS",
       icon: <RiTailwindCssFill size={30} />,

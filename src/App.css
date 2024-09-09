@@ -94,16 +94,17 @@
   cursor: grabbing;
 }
 /*hamd page*/
-.highlights_container{
-  box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45),
-   0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
-
+.highlights_container {
+  box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45),
+    25px 0 20px -20px rgba(0, 0, 0, 0.45),
+    0px 25px 20px -20px rgba(0, 0, 0, 0.45),
+    -25px 0 20px -20px rgba(0, 0, 0, 0.45);
 }
-.live_project_btn:hover{
-  box-shadow:  0 0px 10px 5px #d8d7d7b6,  /* inner white */
-  0px 0px 15px 10px rgba(214, 214, 214, 0.363); /* outer cyan */
+.live_project_btn:hover {
+  box-shadow: 0 0px 10px 5px #d8d7d7b6,
+    /* inner white */ 0px 0px 15px 10px rgba(214, 214, 214, 0.363); /* outer cyan */
 }
-.serra:hover{
-  box-shadow:  0 0px 10px 5px #adadadb6,  /* inner white */
-  0px 0px 15px 10px rgba(214, 214, 214, 0.363); /* outer cyan */
+.serra:hover {
+  box-shadow: 0 0px 10px 5px #adadadb6,
+    /* inner white */ 0px 0px 15px 10px rgba(214, 214, 214, 0.363); /* outer cyan */
 }
