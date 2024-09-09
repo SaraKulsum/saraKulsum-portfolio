@@ -5,6 +5,8 @@ import img2 from "./project_Images/img2.jpg";
 
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaHtml5, FaCss3Alt, FaJava, FaReact, FaGithub } from "react-icons/fa";
+import { RiNextjsFill } from "react-icons/ri";
+import { SiMantine, SiFramer } from "react-icons/si";
 import { IoLogoJavascript, IoLogoFirebase } from "react-icons/io5";
 
 import { easeOut, motion } from "framer-motion";
@@ -40,14 +42,29 @@ const About = () => {
     },
 
     {
-      name: "React-Js",
+      name: "React.js",
       icon: <FaReact size={30} />,
+      color: "#fff",
+    },
+    {
+      name: "Next.js",
+      icon: <RiNextjsFill size={30} />,
       color: "#fff",
     },
 
     {
       name: "Tailwind-CSS",
       icon: <RiTailwindCssFill size={30} />,
+      color: "#fff",
+    },
+    {
+      name: "Framer Motion",
+      icon: <SiFramer size={30} />,
+      color: "#fff",
+    },
+    {
+      name: "Mantine UI",
+      icon: <SiMantine size={30} />,
       color: "#fff",
     },
     {
