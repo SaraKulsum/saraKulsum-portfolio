@@ -217,15 +217,15 @@ const About = () => {
               design. My focus is on responsiveness, transitions and
               interaction. Build with react js, tailwind css, framer motion
             </p>
-            <div className="cardContainer flex-wrap flex gap-6 justify-center">
-              {skills.map((ele) => (
+            <div className="cardContainer flex-wrap flex gap-7 justify-center">
+              {skills.map((ele, index) => (
                 <div
-                  key={ele.name}
+                  key={`${ele.name}-${index}`}
                   className={`skill_Card   flex flex-col justify-around items-center gap-4`}
                 >
                   <div
                     className="logo rounded-full h-20 w-20 border   flex justify-center items-center"
-                    key={ele.name}
+                    key={`sub-div-${ele.name}-${index}`}
                   >
                     {ele.icon}
                   </div>
