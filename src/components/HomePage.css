@@ -1,0 +1,65 @@
+.project_hamd:hover {
+    cursor: pointer;
+    background-image: radial-gradient(
+        circle at 50% 0,
+        #cc9fd8,
+        rgba(0, 0, 0, 0) 80%
+      ),
+    radial-gradient(circle at 50% 0, #8a5387, rgba(0, 0, 0, 0));
+  }
+  .project_weatherApp:hover {
+    cursor: pointer;
+    background-image: radial-gradient(
+        circle at 50% 0,
+        rgba(127, 207, 255, 0.2),
+        rgba(0, 0, 0, 0) 80%
+      ),
+      radial-gradient(circle at 50% 0, #035, rgba(0, 0, 0, 0));
+  }
+
+  .project_Netflix:hover {
+    cursor: pointer;
+    background-image: radial-gradient(
+        circle at 50% 0,
+        rgba(223, 247, 169, 0.2),
+        rgba(0, 0, 0, 0) 80%
+      ),
+      radial-gradient(circle at 50% 0, #4e5a3233, rgba(0, 0, 0, 0));
+  }
+
+  .project_hamd {
+    cursor: pointer;
+    background-image: linear-gradient(#292828, #1a1919);
+  }
+  .project_weatherApp {
+    cursor: pointer;
+    background-image: linear-gradient(#292828, #1a1919);
+  }
+  
+  @media (max-width: 1024px) {
+    .project_hamd {
+      background-image: radial-gradient(
+          circle at 50% 0,
+          #cc9fd8,
+          rgba(0, 0, 0, 0) 80%
+        ),
+        radial-gradient(circle at 50% 0, #8a5387, rgba(0, 0, 0, 0));
+    }
+    .project_weatherApp {
+      background-image: radial-gradient(
+          circle at 50% 0,
+          rgba(127, 207, 255, 0.2),
+          rgba(0, 0, 0, 0) 80%
+        ),
+        radial-gradient(circle at 50% 0, #035, rgba(0, 0, 0, 0));
+    }
+    .project_Netflix{
+        cursor: pointer;
+        background-image: radial-gradient(
+            circle at 50% 0,
+            rgba(229, 238, 207, 0.2),
+            rgba(0, 0, 0, 0) 80%
+          ),
+          radial-gradient(circle at 50% 0, #27360333, rgba(0, 0, 0, 0));
+      }
+  }

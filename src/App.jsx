@@ -8,6 +8,7 @@ import Hamd from "./components/ProjectDetailPages/Hamd";
 import WeatherApp from "./components/ProjectDetailPages/WeatherApp";
 import Netflix from "./components/ProjectDetailPages/Netflix";
 
+
 function App() {
   const locomotiveScroll = new LocomotiveScroll();
 

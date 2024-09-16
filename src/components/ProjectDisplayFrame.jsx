@@ -6,7 +6,11 @@ const ProjectDisplayFrame = ({ heading, subLine, img, cls, link }) => {
   const [isHovered, setHovered] = useState(false);
 
   return (
-    <div className="mx-[5vw] xl:mx-[19vw] p-[6px] my-[5vh] md:my-[10vh] xl:my-[15vh] border rounded-3xl  border-[#555555]">
+    <motion.div 
+    initial={{ opacity: 0 , scale:0.8,  duration: 300}}
+    whileInView={{ opacity: 1 ,  scale:1}}
+    viewport={{ once: true }}
+    className="mx-[5vw] xl:mx-[19vw] p-[6px] my-[5vh] md:my-[10vh] xl:my-[15vh] border rounded-3xl  border-[#555555]">
       <a href={link}>
         <div
           onMouseEnter={() => setHovered(true)}
@@ -39,7 +43,7 @@ const ProjectDisplayFrame = ({ heading, subLine, img, cls, link }) => {
           </motion.div>
         </div>
       </a>
-    </div>
+    </motion.div>
   );
 };
 
